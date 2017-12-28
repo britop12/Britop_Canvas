@@ -11,22 +11,22 @@ function calcular()
   if (a == 1)
   {
     resultado = x + y;
-    resultado2.innerHTML = "<strong>" + resultado + "</strong>"
+    resultado2.innerHTML = "<strong>" + resultado + ".</strong>"
   }
   else if (a == 2 )
   {
       resultado = x - y;
-      resultado2.innerHTML = "<strong>" + resultado + "</strong>"
+      resultado2.innerHTML = "<strong>" + resultado + ".</strong>"
   }
   else if (a == 3)
   {
       resultado = x * y;
-      resultado2.innerHTML = "<strong>" + resultado + "</strong>"
+      resultado2.innerHTML = "<strong>" + resultado + ".</strong>"
   }
   else if (a == 4)
   {
       resultado = x / y;
-      resultado2.innerHTML = "<strong>" + resultado + "</strong>"
+      resultado2.innerHTML = "<strong>" + resultado + ".</strong>"
   }
   else
   {
