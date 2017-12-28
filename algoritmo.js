@@ -18,4 +18,8 @@ function ejecutar()
   {
     resultado.innerHTML = numero + " Es FizzBuzz";
   }
+  else
+  {
+    resultado.innerHTML = numero + " No es Fizz, ni  Buzz porque el residuo es diferente a 0"
+  }
 }
