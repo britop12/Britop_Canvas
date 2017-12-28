@@ -10,4 +10,8 @@ function ejecutar()
   {
      resultado.innerHTML = numero +  " Es fizz";
   }
+  if (numero % 4 == 0)
+  {
+    resultado.innerHTML = numero + " Es Buzz";
+  }
 }
