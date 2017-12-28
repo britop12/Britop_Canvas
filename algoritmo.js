@@ -8,18 +8,18 @@ function ejecutar()
   var numero = parseInt(texto1.value);
   if (numero % 3 == 0)
   {
-     resultado.innerHTML = numero + ", <strong>Es fizz</strong>";
+     resultado.innerHTML = numero + ", <strong>Es fizz.</strong>";
   }
   if (numero % 4 == 0)
   {
-    resultado.innerHTML = numero + ", <strong>Es Buzz</strong>";
+    resultado.innerHTML = numero + ", <strong>Es Buzz.</strong>";
   }
   if (numero % 3 == 0 & numero % 4 == 0)
   {
-    resultado.innerHTML = numero + ", <strong>Es FizzBuzz</strong>";
+    resultado.innerHTML = numero + ", <strong>Es FizzBuzz.</strong>";
   }
   if (numero % 3 != 0 & numero % 4 != 0)
   {
-    resultado.innerHTML = numero + ", <strong>No es Fizz, ni  Buzz porque el residuo es diferente a 0</strong>"
+    resultado.innerHTML = numero + ", <strong>No es Fizz, ni  Buzz porque el residuo es diferente a 0.</strong>"
   }
 }
