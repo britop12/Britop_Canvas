@@ -14,4 +14,8 @@ function ejecutar()
   {
     resultado.innerHTML = numero + " Es Buzz";
   }
+  if (numero % 3 == 0 & numero % 4 == 0)
+  {
+    resultado.innerHTML = numero + " Es FizzBuzz";
+  }
 }
