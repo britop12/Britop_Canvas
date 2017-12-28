@@ -5,5 +5,9 @@ boton1.addEventListener("click", ejecutar);
 
 function ejecutar()
 {
-  console.log("si sirve");
+  var numero = parseInt(texto1.value);
+  if (numero % 3 == 0)
+  {
+     resultado.innerHTML = numero +  " Es fizz";
+  }
 }
