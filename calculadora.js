@@ -1,35 +1,38 @@
 var boton2 = document.getElementById("boton2");
+var boton3 = document.getElementById("boton3");
+var boton4 = document.getElementById("boton4");
+var boton5 = document.getElementById("boton5");
 
-boton2.addEventListener("click", calcular);
+boton2.addEventListener("click", sumar);
+boton3.addEventListener("click", restar);
+boton4.addEventListener("click", multiplicar);
+boton5.addEventListener("click", dividir);
 
-function calcular()
+function sumar()
 {
-  var a = prompt("Que tipo de operacion necesitas?");
-  var x = parseFloat(prompt("Primer numero"));
-  var y = parseFloat(prompt("Segundo numero"));
-  var resultado;
-  if (a == 1)
-  {
-    resultado = x + y;
-    resultado2.innerHTML = "<strong>" + resultado + ".</strong>"
-  }
-  else if (a == 2 )
-  {
-      resultado = x - y;
-      resultado2.innerHTML = "<strong>" + resultado + ".</strong>"
-  }
-  else if (a == 3)
-  {
-      resultado = x * y;
-      resultado2.innerHTML = "<strong>" + resultado + ".</strong>"
-  }
-  else if (a == 4)
-  {
-      resultado = x / y;
-      resultado2.innerHTML = "<strong>" + resultado + ".</strong>"
-  }
-  else
-  {
-    alert("Operacion equivocada");
-  }
+  var x = parseInt(prompt("Primer número que quieres sumar"));
+  var y = parseInt(prompt("Segundo número que quieres sumar"));
+  resultado = x + y;
+  resultado2.innerHTML = "Tu resultado de la suma es: " + "<strong>" + resultado + ".</strong>"
+}
+function restar()
+{
+  var x = parseInt(prompt("Primer número que quieres restar"));
+  var y = parseInt(prompt("Segundo número que quieres restar"));
+  resultado = x - y;
+  resultado2.innerHTML = "Tu resultado de la resta es: " + "<strong>" + resultado + ".</strong>"
+}
+function multiplicar()
+{
+  var x = parseInt(prompt("Primer número que quieres multiplicar"));
+  var y = parseInt(prompt("Segundo número que quieres multiplicar"));
+  resultado = x * y;
+  resultado2.innerHTML = "Tu resultado de la multiplicación es: " + "<strong>" + resultado + ".</strong>"
+}
+function dividir()
+{
+  var x = parseInt(prompt("Primer número que quieres dividir"));
+  var y = parseInt(prompt("Segundo número que quieres dividir"));
+  resultado = x / y;
+  resultado2.innerHTML = "Tu resultado de la división es: " + "<strong>" + resultado + ".</strong>"
 }
