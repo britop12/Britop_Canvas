@@ -1,3 +1,5 @@
+alert("Bienvenido a mi pequeña página");
+
 var d = document.getElementById("canvas");
 var papel = d.getContext("2d");
 
