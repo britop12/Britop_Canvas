@@ -1,1 +1,1 @@
-alert("Terminado");
+var lienzo = document.getElementById("canvas");
